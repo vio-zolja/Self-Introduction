@@ -1,0 +1,25 @@
+.homepage{
+    background: rgb(218, 188, 188);
+    padding: 5% ;
+    margin: 2% -75px;
+    box-shadow: rgb(153, 145, 145) 0px 0px 40px;
+    border-radius: 15px;
+}
+
+h4{
+    margin-top: 7%;
+}
+
+.big{
+    font-weight: bold;
+}
+
+img{
+    text-align: center;
+    width: 100%
+}
+
+h6{
+    font-size: 20px;
+    color:rgb(24, 40, 53)
+}
