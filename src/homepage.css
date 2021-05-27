@@ -4,10 +4,16 @@
     margin: 2% -75px;
     box-shadow: rgb(153, 145, 145) 0px 0px 40px;
     border-radius: 15px;
+    text-align:left;
 }
 
 h4{
     margin-top: 7%;
+    font-size: 25px
+}
+
+h5{
+    font-size: 23px;
 }
 
 .big{
@@ -22,4 +28,18 @@ img{
 h6{
     font-size: 20px;
     color:rgb(24, 40, 53)
+}
+
+p{
+    font-size: 20px;
+
+}
+
+h2{
+    font-size: 48px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.scr{
+    font-size:10px
 }
