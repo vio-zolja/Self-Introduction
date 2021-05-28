@@ -8,7 +8,11 @@ import Contact from "./contact"
 
 
 
+
+
 function App() {
+
+let password = prompt(`Enter the password`)
 
   let [homepage,setHomepage] = useState(false);
   let [aboutMe,setAboutMe] = useState(false);
@@ -180,7 +184,7 @@ if(homepage){
     </div>
     </div>
   );
-}else{
+}if(password === "123"){
   return (
     <div className="App">
     <div className="container">
@@ -216,6 +220,10 @@ if(homepage){
     </div>
     </div>
   );
+}else{
+  return(
+    <h3>Sorry this page is private</h3>
+  )
 }
   
 }

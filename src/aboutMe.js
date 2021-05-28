@@ -3,6 +3,10 @@ import React from "react";
 export default function AboutMe(){
 
     return(
-        <p>Hello from AMe</p>
+        <div className="aboutMe">
+
+        <h2>Who am I?</h2>
+
+        </div>
     )
 }
